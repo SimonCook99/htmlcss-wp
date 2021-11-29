@@ -9,10 +9,12 @@
 <body>
     
     <div class="container">
+        <!--Contenitore del logo e della navbar-->
         <header>
             <div class="banner">
                 <img class="logo" src="img/logo.png" alt="logo">
 
+                <!--Lista delle varie opzioni da cliccare-->
                 <nav>
                     <ul class="navigation-list">
                         <li><a href="#">features</a></li>
@@ -27,6 +29,7 @@
             </div>
         </header>
 
+        <!--Contenitore dell'immagine principale, l'overlay e i suoi testi collegati-->
         <div class="main-image">
             <div class="overlay"></div>
             <img class="image" src="img/banner.jpg" alt="Yoga">
@@ -37,6 +40,7 @@
             </div>
         </div>
 
+        <!--Contenitore del titolo secondario e le altre immagini del sito-->
         <div class="float-container">
 
             <div class="title-container">
@@ -44,6 +48,7 @@
                 <p>Feterum urna a libero tempus</p>
             </div>
 
+            <!--Contenitore della parte sinistra, con testo incluso-->
             <div class="sidebar-left">
 
                 <div class="image-container">
@@ -58,6 +63,7 @@
 
             </div>
 
+            <!--Contenitore della parte centrale, con testo incluso-->
             <div class="content">
                 <div class="image-container">
                     <div class="overlay"></div>
@@ -70,7 +76,8 @@
                 </div>
 
             </div>
-            
+
+            <!--Contenitore della parte destra, con testo incluso-->
             <div class="sidebar-right">
 
                 <div class="image-container">
@@ -86,9 +93,12 @@
             </div>
         </div>
 
+        <!--ho messo anche il div per il clearfix, ma teoricamente è superfluo con float-container:after-->
         <div class="clearfix"></div>
     
-        <footer></footer>
+        <footer>
+            <span>Designed with <span class="heart">&hearts;</span></span>
+        </footer>
     </div>
 
     
